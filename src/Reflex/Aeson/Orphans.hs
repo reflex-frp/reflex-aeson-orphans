@@ -1,6 +1,6 @@
 {-# LANGUAGE GeneralizedNewtypeDeriving #-}
 {-# LANGUAGE StandaloneDeriving #-}
-module Reflex.Orphans () where
+module Reflex.Aeson.Orphans () where
 
 import Data.Aeson
 import Data.AppendMap
