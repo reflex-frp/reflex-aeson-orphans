@@ -1,0 +1,24 @@
+name:                reflex-aeson-orphans
+version:             0.1.0.0
+synopsis:            Defines aeson FromJSON and ToJSON orphan instances for reflex data types.
+-- description:         
+license:             BSD3
+license-file:        LICENSE
+author:              Luigy Leon
+maintainer:          maintenance@obsidian.systems
+-- copyright:           
+-- category:            
+build-type:          Simple
+extra-source-files:  ChangeLog.md
+cabal-version:       >=1.10
+
+library
+  exposed-modules:   Reflex.Orphans
+  -- other-modules:       
+  -- other-extensions:    
+  build-depends:     base >=4.9 && <4.10
+                   , aeson
+                   , containers
+                   , reflex
+  hs-source-dirs:    src
+  default-language:  Haskell2010
