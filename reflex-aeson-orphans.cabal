@@ -13,8 +13,6 @@ library
   exposed-modules:   Reflex.Aeson.Orphans
   build-depends:     base >=4.9 && <4.12
                    , aeson
-                   , containers
-                   , monoidal-containers >= 0.5.0.0
                    , reflex
   hs-source-dirs:    src
   default-language:  Haskell2010
