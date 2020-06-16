@@ -1,6 +1,9 @@
 name:                reflex-aeson-orphans
 version:             0.2.0.0
-synopsis:            Defines aeson FromJSON and ToJSON orphan instances for reflex data types.
+synopsis:
+  @ToJSON@, @FromJSON@, and other Aeson instances needed in the Reflex FRP ecosystem.
+  .
+  <https://reflex-frp.org>
 license:             BSD3
 license-file:        LICENSE
 author:              Luigy Leon
@@ -11,7 +14,7 @@ cabal-version:       >=1.10
 
 library
   exposed-modules:   Reflex.Aeson.Orphans
-  build-depends:     base >=4.9 && <4.12
+  build-depends:     base >=4.9 && <4.14
                    , aeson
                    , reflex
   hs-source-dirs:    src
